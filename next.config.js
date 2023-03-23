@@ -4,7 +4,12 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["upload.wikimedia.org", "www.nftgators.com", "www.pinterest.com"],
+    domains: [
+      "upload.wikimedia.org",
+      "www.nftgators.com",
+      "www.pinterest.com",
+      "i.pravatar.cc",
+    ],
   },
 };
 
