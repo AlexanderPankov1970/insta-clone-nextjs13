@@ -43,9 +43,9 @@ export default function Header() {
           <AiFillHome className="hidden md:inline text-2xl cursor-pointer hover:scale-125" />
           <AiFillPlusCircle className="text-2xl cursor-pointer hover:scale-125" />
           <Image
-            src={"/паньков 2.jpg"}
+            src={"/pankov3.jpg"}
             alt={"User Photo"}
-            className="h-12 rounded-xl"
+            className="h-12 rounded-full"
             width={50}
             height={50}
           />

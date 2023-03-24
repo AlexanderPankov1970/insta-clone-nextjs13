@@ -7,8 +7,12 @@ const nextConfig = {
     domains: [
       "upload.wikimedia.org",
       "www.nftgators.com",
+      "images.pexels.com",
       "www.pinterest.com",
       "i.pravatar.cc",
+      "unsplash.com",
+      "www.pexels.com",
+      "stock.adobe.com",
     ],
   },
 };
