@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
+import { HiOutlineHeart, HiOutlineChat } from "react-icons/hi";
+import { GiBookmark } from "react-icons/gi";
 
 export default function Post({ id, img, username, caption, userImg }) {
   return (
@@ -25,6 +27,14 @@ export default function Post({ id, img, username, caption, userImg }) {
         height={450}
         className="object-cover w-full"
       />
+      {/* Post Buttons */}
+      <div className="flex justify-between px-2 m-4">
+        <div className="flex justify-between px-4 space-x-6">
+          <HiOutlineHeart className="hover:scale-125 cursor-pointer transition-transform duration-200 ease-out" />
+          <HiOutlineChat className="hover:scale-125 cursor-pointer transition-transform duration-200 ease-out" />
+        </div>
+        <GiBookmark className="btn" />
+      </div>
     </div>
   );
 }

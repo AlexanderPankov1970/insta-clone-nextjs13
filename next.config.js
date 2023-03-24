@@ -13,6 +13,8 @@ const nextConfig = {
       "unsplash.com",
       "www.pexels.com",
       "stock.adobe.com",
+      "images.unsplash.com",
+      "plus.unsplash.com",
     ],
   },
 };

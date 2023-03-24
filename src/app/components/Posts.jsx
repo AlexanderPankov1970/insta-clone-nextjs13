@@ -8,24 +8,24 @@ export default function Posts() {
       username: "alex_pankov",
       userImg: "/pankov3.jpg",
       caption: "Amazing picture",
-      img: "/bridge.jpg",
-      //img: "https://images.pexels.com/photos/7387470/pexels-ph…jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      //img: "/bridge.jpg",
+      img: "https://images.pexels.com/photos/7387470/pexels-photo-7387470.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: "2",
       username: "alex_pankov",
       userImg: "/pankov3.jpg",
       caption: "Cool car",
-      img: "/BMW.jpg",
-      //   img: "https://unsplash.com/photos/2AovfzYV3rc",
+      //img: "/BMW.jpg",
+      img: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: "3",
       username: "alex_pankov",
       userImg: "/pankov3.jpg",
       caption: "New photo",
-      img: "/Chevrolet.jpg",
-      //img: "https://unsplash.com/photos/2AovfzYV3rc",
+      //img: "/Chevrolet.jpg",
+      img: "https://images.unsplash.com/photo-1676745737239-8c60b47cb794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
     },
   ];
   return (
@@ -43,3 +43,6 @@ export default function Posts() {
     </div>
   );
 }
+
+//https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600
+//https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600
