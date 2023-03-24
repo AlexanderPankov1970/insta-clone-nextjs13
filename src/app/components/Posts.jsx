@@ -7,7 +7,7 @@ export default function Posts() {
       id: "1",
       username: "alex_pankov",
       userImg: "/pankov3.jpg",
-      caption: "Amazing picture",
+      caption: "Amazing super car",
       //img: "/bridge.jpg",
       img: "https://images.pexels.com/photos/7387470/pexels-photo-7387470.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
