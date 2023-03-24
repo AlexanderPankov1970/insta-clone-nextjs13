@@ -29,7 +29,7 @@ export default function Post({ id, img, username, caption, userImg }) {
         alt={"Photo"}
         width={450}
         height={450}
-        className="object-cover w-full"
+        className="object-cover w-full pl-4"
       />
       {/* Post Buttons */}
       <div className="flex justify-between px-2 m-4">
