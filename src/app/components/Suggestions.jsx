@@ -6,7 +6,7 @@ import SuggestionStory from "./SuggestionStory";
 export default function Suggestions() {
   const [suggestions, setSuggestions] = useState([]);
   useEffect(() => {
-    const suggestions = minifaker.array(5, (i) => ({
+    const suggestions = minifaker.array(7, (i) => ({
       userName: minifaker.username({ locale: "en" }).toLowerCase(),
       jobTitle: minifaker.jobTitle().toLowerCase(),
       img: `https://i.pravatar.cc/150?img=${Math.ceil(Math.random() * 70)}`,
